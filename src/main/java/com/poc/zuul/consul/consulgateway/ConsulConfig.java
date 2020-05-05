@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @RefreshScope
 @Configuration
-@ConfigurationProperties("accessconfig")
+@ConfigurationProperties("myappconfig")
 public class ConsulConfig {
     private String properties;
 
